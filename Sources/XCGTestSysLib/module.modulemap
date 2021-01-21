@@ -1,0 +1,9 @@
+
+module XCGTestSysLib [system] {
+       header "shim.h"
+       link "gtest"
+       link "gtest_main"
+       link "gmock"
+       link "gmock_main"
+}
+
